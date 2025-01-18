@@ -1,1 +1,1 @@
-LINK: https://vindafler.github.io/digital-emporium/
+Font from: https://moorstation.org/typoasis/designers/steffmann/index.htm

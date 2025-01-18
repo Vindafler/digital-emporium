@@ -1,0 +1,51 @@
+body
+{
+	font-size: 30px;
+	font-family: MorrisRomanBlack;
+	margin: 0;
+	background-image: url('bgr-test.jpg')
+}
+div
+{
+	border-width: 5px;	
+}
+#title
+{
+	text-align:center;
+	border-style: solid solid none solid;
+	padding: 1%;
+	font-size: 300%;
+	background-color: #956a57;
+}
+#list
+{
+	text-align:center;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	border-style: none solid solid solid;
+	padding: 1%;
+	background-color: #956a57;
+}
+#page-contents
+{
+	padding: 1%;
+	background-color: #956a57;
+	margin-top: 0.1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: double solid solid double;
+	border-width: 10px;
+}
+.entry
+{
+	font-size: 150%;
+}
+.entry::first-letter
+{
+	border-width: 10px;
+	font-size: 350%;
+	border-style: solid double solid double;
+	float: left;
+	margin-right: 0.5%;
+}

@@ -1,0 +1,26 @@
+.entry
+{
+	font-size: 120%;
+	margin-bottom: 5%;
+}
+.entry::first-letter
+{
+	border-width: 10px;
+	font-size: 250%;
+	border-style: solid double solid double;
+	float: left;
+	margin-right: 0.5%;
+}
+a
+{
+	-webkit-text-stroke: 2px black;
+}
+#title
+{
+	padding: 5%;
+	font-size: 220%;
+}
+#list
+{
+	font-size: 150%;
+}

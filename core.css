@@ -1,9 +1,9 @@
 body
 {
 	font-size: 30px;
-	font-family: MorrisRomanBlack;
+	font-family: VinqueRegular;
 	margin: 0;
-	background-image: url('bgr-test.jpg')
+	background-image: url('images/bgr-test.png');
 }
 div
 {
@@ -44,7 +44,7 @@ div
 .entry::first-letter
 {
 	border-width: 10px;
-	font-size: 350%;
+	font-size: 290%;
 	border-style: solid double solid double;
 	float: left;
 	margin-right: 0.5%;

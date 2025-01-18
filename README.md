@@ -1,1 +1,1 @@
-Font from: https://moorstation.org/typoasis/designers/steffmann/index.htm](https://typodermicfonts.com/vinque/
+Font from: https://typodermicfonts.com/vinque/

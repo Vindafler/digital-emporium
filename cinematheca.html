@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vindafler's Digitial Emporium</title>
+<link rel="stylesheet" type="text/css" href="fonts/Vinque.css">
+<link rel="stylesheet" type="text/css" href="core.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 500px)" href="mobile-friendly.css">
+</head>
+<body>
+<div id="title">
+Vindafler's Digital Emporium
+</div>
+<div id="list">
+<a href="index.html"> Vestibule</a>
+⋅
+<a href="bibliotheca.html"> Bibliotheca</a>
+⋅
+<a> Cinematheca</a>
+⋅
+<a href="iconotheca.html"> Iconotheca</a>
+⋅
+<a href="biography.html"> Biography</a>
+</div>
+<div id="side-background">
+<div id="page-contents">
+<div class="entry">
+Y<br>ou have entered the Cinematheca,
+</div>
+Inside of it gives an impression of moribund machine - cold as stone it is there, through a room a discrete hum spreads, 
+accompanied by a serie of faint clicks, feeling as though they were about to end.
+
+<br>
+<br>
+<img src="images/video-reel.png" width="10%">
+<button type="button" class="collapsible">Minecraft: of the Last Shapeshifter</button>
+<div class="content">
+  <p>Unplublished yet; raw footage is ready though.</p>
+</div>
+<br>
+An experimental serie of Minecraft survival videos, with a slight twist in form of custom-written story and tied to it limitations. Recorded as a form of side activity from usual projects and potentially a gap filler in missing shedule.
+<div class="img-end"></div>
+<br>
+<img src="images/video-reel.png" width="10%">
+<button type="button" class="collapsible">Two major sides of modern art</button>
+<div class="content">
+  <p>Only as a unpublished draft at the moment.</p>
+</div>
+<br>
+An objective discussion of the tendency for either idealized or grounded approach observed in modern forms of artistry (e.g. video games, graphic novels). Additionally dispute on what may have caused such distinction and how those art forms can be utilized.
+<div class="img-end"></div><br>
+</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
+
+

@@ -1,7 +1,7 @@
 body
 {
 	font-size: 30px;
-	font-family: VinqueRegular;
+	font-family: Vinque;
 	margin: 0;
 	background-color: #956a57;
 }
@@ -9,17 +9,23 @@ div
 {
 	border-width: 5px;	
 }
+img
+{
+	border-width: 10px;	
+	border-style: solid double solid double;
+	border-color: black;	
+	float: left;
+	margin-right: 0.5%;
+}
 a:link
 {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
-	-webkit-text-stroke: 1px RGB(33, 75, 165, 0.4);
 }
 a:visited
 {
 	color: black;
-	-webkit-text-stroke: 1px #80416f;	
 }
 a:link:hover
 {
@@ -29,6 +35,13 @@ a:visited:hover
 {
 	-webkit-text-stroke: 1px #80416f;	
 }
+h3
+{
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+}
 #title
 {
 	text-align:center;
@@ -37,7 +50,6 @@ a:visited:hover
 	color: black;
 	font-weight: bold;
 	padding: 1%;
-	-webkit-text-stroke: 1px #151515;
 }
 #list
 {
@@ -48,11 +60,13 @@ a:visited:hover
 	border-style: none solid solid solid;
 	background-color: #956a57;
 	padding: 1%;
+	font-weight: bold;
 }
 #side-background
 {
 	padding: 0.1%;
 	background-image: url('images/bgr-test.jpg');
+	overflow: hidden;
 }
 #page-contents
 {
@@ -62,20 +76,53 @@ a:visited:hover
 	margin-right: 10%;
 	border-style: double solid solid double;
 	border-width: 10px;
+	min-height: 720px;
+	text-align: justify; 
 }
 .entry
 {
 	font-size: 150%;
 	font-weight: bold;
-	-webkit-text-stroke: 1px #151515;
 }
 .entry::first-letter
 {
 	border-width: 10px;
 	font-size: 360%;
 	border-style: solid double solid double;
-	border-color: #151515 #000000 #151515 #000000;
+	border-color: black;
 	float: left;
 	margin-right: 0.5%;
-	box-shadow: 0 0 0 0px #151515, 0 0 0 3px #151515;
+}
+.img-end
+{
+	clear:left
+
+}
+.collapsible 
+{
+	background: none;
+	float:inherit;
+	cursor: pointer;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 36px;
+	font-family: Vinque;
+	font-weight: bold;
+}
+.active, .collapsible:hover 
+{
+	-webkit-text-stroke: 1px #214ba5;
+}
+.content 
+{
+	background-color: #b78a75;
+	padding: 1%;
+	border-style: solid double solid double;
+	border-color: black;
+	position: absolute;
+	display: none;
+	margin-left: 10%;
+	overflow: hidden;
+	text-align: left;
 }

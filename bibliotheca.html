@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vindafler's Digitial Emporium</title>
+<link rel="stylesheet" type="text/css" href="fonts/Vinque.css">
+<link rel="stylesheet" type="text/css" href="core.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 500px)" href="mobile-friendly.css">
+</head>
+<body>
+<div id="title">
+Vindafler's Digital Emporium
+</div>
+<div id="list">
+<a href="index.html"> Vestibule</a>
+⋅
+<a> Bibliotheca</a>
+⋅
+<a href="cinematheca.html"> Cinematheca</a>
+⋅
+<a href="iconotheca.html"> Iconotheca</a>
+⋅
+<a href="biography.html"> Biography</a>
+</div>
+<div id="side-background">
+<div id="page-contents">
+<div class="entry">
+Y<br>ou have entered the Bibliotheca,
+</div>
+It is more of a complex labyrinth than a library. Upon stepping closer, a sapless scent of well-aged paper arouses the nose of yours.
+ You walk through unending corridors, built from bookshelves. The dead silence occuring in this room is disrupted by your monotone step.
+<br><br>
+<img src="images/book.png" width="10%">
+<button type="button" class="collapsible">Matter of Kyrridea</button>
+<div class="content">
+<h3>Pact over Forsaken</h3>
+- <a href="bibliotheca\matter-of-kyrridea\pact-over-forsaken\eng (digital).pdf" style="font-weight: normal;"> English version</a>
+<br>
+- <a href="bibliotheca\matter-of-kyrridea\pact-over-forsaken\pl (digital).pdf" style="font-weight: normal;"> Polish version</a>
+</div>
+<br>
+A serie of novels regarding common, but due to their nature, often defied aspects of once daily life, with a faint addition of fantasy. It is a fruit of my interest with early medieval and late antique history. 
+<div class="img-end"></div>
+<br>
+<img src="images/book.png" width="10%">
+<button type="button" class="collapsible">Barren and its Story</button>
+<div class="content">
+  <p>Alas, it is not completed yet.</p>
+</div>
+<br>
+The world we never had a chance to know had already fallen. A remnant of population regrown, reformed the rubble of civilization to new, twisted form. 
+<div class="img-end"></div>
+<br>
+<img src="images/parchment.png" width="10%">
+<button type="button" class="collapsible">Tendency for Cultural Fragmentation</button>
+<div class="content">
+  <p>Alas, it is not completed yet.</p>
+</div>
+<br>
+About a cultural fragmentation, its potential origin and regional characteristic of it. Shall be taken as a non-scientific document.
+<div class="img-end"></div>
+<br><br><br>
+</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
+
+

@@ -1,19 +1,37 @@
-ab
+body
+{
+	font-size: 42px;
+}
+#page-contents
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	min-height: 1800px;
+	font-size: 120%;	
+}
 .entry
 {
-	font-size: 120%;
 	margin-bottom: 5%;
 }
 .entry::first-letter
 {
+	margin-top: 2%;
 	font-size: 250%;
 }
 #title
 {
-	padding: 5%;
-	font-size: 220%;
+	padding: 2%;
+	font-size: 220%;	
 }
 #list
+{
+	font-size: 110%;
+}
+.collapsible
+{
+	font-size: 120%;	
+}
+.content
 {
 	font-size: 150%;
 }
